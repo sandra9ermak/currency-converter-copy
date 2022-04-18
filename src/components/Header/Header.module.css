@@ -1,0 +1,66 @@
+.header {
+  width: 100%;
+  background-color: rgb(177, 28, 60);
+  position: absolute;
+}
+
+.headerDiv {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  height: 300px;
+  justify-content: space-between;
+  display: flex;
+  width: 1200px;
+}
+
+.logo {
+  /* color: rgba(255, 255, 255, 0.815); */
+  color: #fff;
+  font-family: "Fredoka One", cursive;
+  letter-spacing: 0.07em;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.currencyDiv {
+  display: flex;
+}
+
+.amountText,
+.changeText {
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.amountText {
+  margin-right: 10px;
+}
+
+.currencyNameList {
+  margin-right: 20px;
+  padding-top: 25px;
+}
+
+.currencyNameListItem {
+  padding-bottom: 7px;
+  font-weight: 700;
+}
+
+.changeListItem,
+.amountListItem {
+  /* border: 2px solid #fff; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.amountList {
+  margin-right: 10px;
+}
+
+.changeListItem:not(:last-child),
+.amountListItem:not(:last-child) {
+  margin-bottom: 15px;
+}

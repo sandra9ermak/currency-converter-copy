@@ -1,0 +1,115 @@
+.mainContent {
+  height: 200px;
+  position: relative;
+  top: 150px;
+}
+
+.container {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  background-color: #fff;
+  border-radius: 10px;
+  /* width: 100%; */
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 0 auto;
+  max-width: 1200px;
+  box-shadow: 0px 7px 9px -1px rgba(34, 60, 80, 0.15);
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.currencyAction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputForm {
+  border-radius: 6px;
+  border: 1px solid rgba(161, 159, 159, 0.719);
+  box-shadow: 1px 4px 10px -2px rgba(34, 60, 80, 0.15);
+  height: 40px;
+  width: 200px;
+  padding-left: 5px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.inputForm:focus {
+  /* border-color: blue; */
+  outline: none;
+}
+.inputForm::placeholder {
+  text-align: center;
+}
+
+.selectForm,
+.secondSelect {
+  border-radius: 6px;
+  height: 40px;
+  border: 1px solid rgba(161, 159, 159, 0.719);
+  box-shadow: 1px 4px 10px -2px rgba(34, 60, 80, 0.15);
+  width: 100px;
+  margin-top: 10px;
+}
+.selectForm:focus,
+.secondSelect:focus {
+  outline: none;
+}
+.secondSelect{
+  margin-top: 25px;
+}
+
+.secondLabel{
+  display: flex;
+}
+
+.secondInputText{
+  margin-bottom: 5px;
+}
+
+
+.spanArrow {
+  border-radius: 50%;
+  border: 1px solid rgba(161, 159, 159, 0.719);
+  /* width: 40px; */
+  background-color: transparent;
+  background-color: rgba(178, 207, 241, 0.377);
+  /* border: none; */
+  font-family: "Varela Round", sans-serif;
+  /* height: 40px; */
+  margin-top: 20px;
+  padding: 10px 11px;
+}
+
+.btnSubmitForm {
+  border-radius: 4px;
+  cursor: pointer;
+  width: 80px;
+  background-color: rgb(46, 77, 179);
+  color: rgba(255, 255, 255, 0.884);
+  letter-spacing: 0.09em;
+  border: none;
+  font-family: "Varela Round", sans-serif;
+  height: 50px;
+  margin-top: 15px;
+}
+.btnSubmitForm:hover,
+.btnSubmitForm:focus {
+  background-color: rgb(177, 28, 60);
+  box-shadow: 1px 4px 10px -2px rgba(34, 60, 80, 0.15);
+}
+
+/* .resultDiv {
+  margin-top: 100px;
+  display: flex;
+  font-family: "Varela Round", sans-serif;
+  letter-spacing: 0.07em;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 4px;
+  display: block;
+} */
